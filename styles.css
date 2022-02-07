@@ -1,0 +1,100 @@
+body {
+    margin: auto;
+   background-color: #F08080}
+   
+   /* Make all yor images "100%" wide and they fill to the width of the parent <body> */
+img {
+    width: 55%;
+    height: 50vh;
+   
+}
+   
+   h1 {
+    font-family: "Georgia";
+    font-size: 110px;
+    line-height: 0.8;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    width: 40%;
+    margin-top: 50px;
+    color: white
+   }
+   
+   h2 {
+    font-family: "Helvetica";
+    background-color: white;
+    color: #F08080;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+   }
+   
+   
+   .intro {
+    font-family: "Georgia";
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+   }
+   
+   p {
+    font-family: "Georgia";
+    color: white;
+    font-size: 18px;
+   }
+   
+   /* There are many ways to select specific elements: Here I'm asking for all the paragraphs - EXCEPT any that have the .intro class on them  */
+   p:not(.intro) {
+    border-left: 5px solid;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+   }
+   
+   /* Finally, tweak the credit line to be a "block" with a style all its own */
+   
+   em {
+    text-transform: uppercase;
+    display: block;
+    color: #E0E0E0;
+    font-size: 70%;
+    text-align: left;
+    margin-top: 20px;
+   }
+   
+   
+   
+   .intro {
+    font-family: "Georgia";
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+   }
+   
+   p {
+    font-family: "Helvetica";
+    color: white;
+    font-size: 18px;
+   }
+   
+   /* There are many ways to select specific elements: Here I'm asking for all the paragraphs - EXCEPT any that have the .intro class on them  */
+   p:not(.intro) {
+    border-left: 5px solid;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+   }
+   
+   /* Finally, tweak the credit line to be a "block" with a style all its own */
+   
+   em {
+    text-transform: uppercase;
+    display: block;
+    color: #E0E0E0;
+    font-size: 70%;
+    text-align: left;
+    margin-top: 20px;
+   }
+  
